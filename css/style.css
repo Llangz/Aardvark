@@ -1,0 +1,50 @@
+			#b {
+                	margin: 10px;
+				padding: 5px;
+				grid-area: b;
+			}
+
+			#g {
+					margin: 10px;
+				padding: 5px;
+				grid-area: g;
+
+			}
+
+			#a {
+
+				color: blue;
+				background-color: lightblue;
+				text-align: center;
+			}
+
+			#r {
+					margin: 10px;
+				padding: 5px;
+				grid-area: r;
+			}
+
+			#a {
+					margin: 10px;
+				padding: 5px;
+				grid-area: a;
+			}
+
+			.gridContainer {
+				display: grid;
+				grid-template-areas: 
+				'y y y y y'
+				'g b b b b'
+				'r r r r a'; 
+				/*i actually forgot a semi colon :-() and remove the extra div from the template ; */
+
+			}
+
+			nav {
+				display: block;
+				margin: 10px;
+				padding: 10px;
+
+
+
+			}
