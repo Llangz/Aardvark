@@ -9,6 +9,13 @@
 		<title>Aardvark Blockbuster</title>
 
 		<meta charset="UTF-8">
+
+		<!-- linking to bootsrap -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
 		<!-- seo optimization -->
 		<meta name="keywords" content="type, genre, country, year">
@@ -21,87 +28,87 @@
 
 		<!-- link to external css file -->
 		<link rel="stylesheet" type="text/css" href="style.css">
-
-		<!-- linking to bootsrap -->
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-
-		<!-- link to js -->
-	<script type="text/javascript" src="bootsrap/js/bootsrap.js"></script>
-	<script type="text/javascript" src="bootsrap/js/bootsrap.min.js"></script>
 	
  		
 	
 	</head>
-<div class="container-fluid gridContainer">
-		<div id="y">
-			 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <a class="navbar-brand" href="#">
 
-  	 <img src="images/mortal.png" alt="Aardvark" height="40" style="background-color: white;">
-
-
-  </a>
-  <!-- responsive menu -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="public/uploadMovie.html" style="color: white;">Upload Movie <span class="sr-only">(current)</span></a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="public/about.html" style="color: white;" >About</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="public/error.html" style="color: white;">error</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0" action="#" method="post">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-
-
+	<body>
+		<div class="grid-container">
+			<div class="container" id="divHeader">
+				<img src="images/icon.jpg" width="80" height="80" id="logo">
+				<p class="alert alert-info">Real and Reel: Buy One Get Two Free</p>
+				<a href="publi/uploadMovie.html" class="btn btn-primary btn-lg">Upload Movie</a>
+				
+			</div>
+			
 		</div>
 
-        <div id="r">
-        	<!-- text bootstrap -->
-        	<!-- footer -->
+		<div class="table-container">
+			<table class="table" id="tablemovies">
 
-  
+	  <tr>
+	    <th>#</th>
+	    <th>Movie Name</th>
+	    <th>Time</th>
+	    <th>Lead Actor</th>
+	    <th>Movie Poster</th>
+	    <th>Genre</th>
+	    <th>Rating</th>
+	    <th colspan="2">Actions</th>
+	  </tr>
+	  <!-- dummy data row1 -->
+	  <tr>
+	    <td>1</td>
+	    <td>Fullmetal Alchemist: Brotherhood</td>
+	    <td> min</td>
+	    <td>Vic Mignogna</td>
+	    <td>
+	    	<a href="">
+	    					<img src="images/fma.jpg" width="100" height="100">
+	    	</a>
+	    </td>
+	    <td>Anime</td>
+	    <td>R-17</td>
+	    <td>
+	    	<a href="" class="btn btn-primary">Edit</a>
+	    	<a href="" class="btn btn-danger">Delete</a>
+	    </td>
+	  </tr>
 
-        	<img src="images/v.png" class="float-left" width="40" height="40">
-            
+	  <!-- dummy data row2 -->
+	  <tr>
+	    <td>2</td>
+	    <td>V for Vendetta</td>
+	    <td>2h 13m</td>
+	    <td>Natalie Portman</td>
+	    <td>
+	    	<a href="">
+	    					<img src="images/v.png" width="100" height="100">
+	    	</a>
+
+	    </td>
+	    <td>political action film</td>
+	    <td>R</td>
+	    <td>
+	    	<a href="" class="btn btn-primary">Edit</a>
+	    	<a href="" class="btn btn-danger">Delete</a>
+	    </td>
+	  </tr>
+	  
+	</table>
 
 
-        </div>
-
-		<div id="g">
-			  <!-- poster  -->
-              <img src="fma.jpg" width="100%" height="500" class="rounded" alt="Latest Movie">
-
-
+			
 		</div>
 
-		
-	</div>
 
-</body>
-  <!-- responsive menu -->
-  	
-
+		<!-- link to js -->
+		<script type="text/javascript" src="js/style.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 
-		</div>
 
         
 		
