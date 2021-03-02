@@ -17,3 +17,15 @@
 #tablemovies{
 	margin-top: 50px;
 }
+
+/*media query*/
+@media(max-width: 370px;){
+	/*css*/
+	.edit{
+		margin-bottom: 10px;
+
+	}
+	.delete{
+
+	}
+}
